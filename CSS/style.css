@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-@media screen (max-width: 469px){
+@media screen (min-width: 469px){
   /* EVERYTHING NAV */
   .navbar{
     width: 100%;
