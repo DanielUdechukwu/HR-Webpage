@@ -6,46 +6,6 @@
   box-sizing: border-box;
 }
 
-/* MEDIA QUERIES. MOBILE FIRST PERSPECTIVE, SO THIS SECTION IS FOR TABLET AND LAPTOP SCREEN RESOLUTIONS */
-
-@media (min-width: 768px){
-  .navbar{
-    padding: 8px 15px;
-  }
-  .navbar a{
-    font-size: 50px;
-  }
-  .section1{
-    background-position: center;
-  }
-  .section1-text{
-    padding: 30em 0 0 0;
-  }
-  .section1-images{
-    display: flex;
-    gap: 9em;
-    width: 80%;
-    margin: 0  auto;
-    padding-bottom: 3em;
-  }
-  .section1-images img{
-    width: 12em;
-  }
-  .section1 h3{
-    font-size: 6em;
-  }
-  .section1 h1{
-    font-size: 10em;
-  }
-  .section1-text hr{
-    border: 0;
-    border-bottom: 15px solid #fff;
-    margin-top: 30px;
-    width: 85%;
-  }
-}
-
-
 /* EVERYTHING NAV */
 .navbar{
   width: 100%;
@@ -60,7 +20,7 @@
 /* SECTION1 */
 .section1{
   width: 100%;
-  /* height: 90vh; */
+  height: 90vh;
   background-image: url(../image/hero-bg.jpg);
   background-position: 81.49% 50%;
   background-size: cover;
@@ -89,7 +49,7 @@
 
 .section1-text hr{
   border: 0;
-  border-bottom: 15px solid #fff;
+  border-bottom: 25px solid #fff;
   opacity: 1;
   margin-top: 40px;
 }
